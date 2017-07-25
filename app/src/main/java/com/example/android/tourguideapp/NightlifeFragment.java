@@ -20,7 +20,7 @@ import static android.media.AudioManager.AUDIOFOCUS_LOSS;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class PhrasesFragment extends Fragment {
+public class NightlifeFragment extends Fragment {
 
     private MediaPlayer mMediaPlayer;
     private MediaPlayer.OnCompletionListener mCompletionListener = new MediaPlayer.OnCompletionListener() {
@@ -52,7 +52,7 @@ public class PhrasesFragment extends Fragment {
         releaseMediaPlayer();
     }
 
-    public PhrasesFragment() {
+    public NightlifeFragment() {
         // Required empty public constructor
     }
 
