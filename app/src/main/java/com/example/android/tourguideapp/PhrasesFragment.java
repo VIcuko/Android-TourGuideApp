@@ -78,7 +78,7 @@ public class PhrasesFragment extends Fragment {
         sites.add(new Site("Let’s go.", "yoowutis", R.raw.phrase_lets_go));
         sites.add(new Site("Come here.", "әnni'nem", R.raw.phrase_come_here));
 
-        WordAdapter adapter = new WordAdapter(getActivity(), sites, R.color.category_phrases);
+        SiteAdapter adapter = new SiteAdapter(getActivity(), sites, R.color.category_phrases);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 

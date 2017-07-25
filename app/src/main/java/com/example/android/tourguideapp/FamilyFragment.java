@@ -78,7 +78,7 @@ public class FamilyFragment extends Fragment {
         sites.add(new Site("grandmother", "ama", R.drawable.family_grandmother, R.raw.family_grandmother));
         sites.add(new Site("grandfather", "paapa", R.drawable.family_grandfather, R.raw.family_grandfather));
 
-        WordAdapter adapter = new WordAdapter(getActivity(), sites, R.color.category_family);
+        SiteAdapter adapter = new SiteAdapter(getActivity(), sites, R.color.category_family);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 

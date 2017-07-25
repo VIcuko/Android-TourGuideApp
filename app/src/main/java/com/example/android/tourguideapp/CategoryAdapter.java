@@ -23,7 +23,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         } else if (position == 1) {
             return new FamilyFragment();
         } else if (position == 2) {
-            return new ColorsFragment();
+            return new RestaurantsFragment();
         } else {
             return new PhrasesFragment();
         }

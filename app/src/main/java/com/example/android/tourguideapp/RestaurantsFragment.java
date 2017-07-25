@@ -13,11 +13,13 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class MonumentsFragment extends Fragment {
+public class RestaurantsFragment extends Fragment {
 
-    public MonumentsFragment() {
+
+    public RestaurantsFragment() {
         // Required empty public constructor
     }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -45,4 +47,5 @@ public class MonumentsFragment extends Fragment {
 
         return rootView;
     }
+
 }
