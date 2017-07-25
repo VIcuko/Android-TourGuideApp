@@ -18,4 +18,15 @@
     <string name="category_restaurants">Restaurants</string>
     <string name="category_events">Events</string>
     <string name="category_nightlife">Nightlife</string>
+
+    <string name="monument_1">geo:40.4199961,-3.6909257</string>
+    <string name="monument_2">geo:40.4199961,-3.6909257</string>
+    <string name="monument_3">geo:40.4199961,-3.6909257</string>
+    <string name="monument_4">geo:40.4199961,-3.6909257</string>
+    <string name="monument_5">geo:40.4199961,-3.6909257</string>
+    <string name="monument_6">geo:40.4199961,-3.6909257</string>
+    <string name="monument_7">geo:40.4199961,-3.6909257</string>
+    <string name="monument_8">geo:40.4199961,-3.6909257</string>
+    <string name="monument_9">geo:40.4199961,-3.6909257</string>
+    <string name="monument_10">geo:40.4199961,-3.6909257</string>
 </resources>
