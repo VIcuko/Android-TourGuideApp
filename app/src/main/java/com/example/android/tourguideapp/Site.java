@@ -8,41 +8,39 @@ package com.example.android.tourguideapp;
 
 public class Site {
 
-    private String mMiWokTranslation;
-    private String mDefaultTranslation;
+    private String mSiteName;
+    private String mSiteDescription;
     private int mImageResourceId = NO_IMAGE_PROVIDED;
     private static final int NO_IMAGE_PROVIDED = -1;
-    private int mAudioResourceId;
+    private int mLocationId;
 
-    public Site(String defaultTranslation, String miWokTranslation, int audioResourceId) {
-        mMiWokTranslation = miWokTranslation;
-        mDefaultTranslation = defaultTranslation;
-        mAudioResourceId = audioResourceId;
+    public Site(String siteName, String siteDescription, int locationId) {
+        mSiteName = siteName;
+        mSiteDescription = siteDescription;
+        mLocationId = locationId;
     }
 
-    public Site(String defaultTranslation, String miWokTranslation, int imageResourceId, int audioResourceId) {
-        mMiWokTranslation = miWokTranslation;
-        mDefaultTranslation = defaultTranslation;
+    public Site(String siteName, String siteDescription, int imageResourceId, int locationId) {
+        mSiteName = siteName;
+        mSiteDescription = siteDescription;
         mImageResourceId = imageResourceId;
-        mAudioResourceId = audioResourceId;
+        mLocationId = locationId;
     }
 
-    /**
-     * Method to retrieve the default word for this Site pair.
-     */
-    public String getDefautltTranslation() {
-        return mDefaultTranslation;
+    public String getSiteName() {
+        return mSiteName;
     }
 
-    /**
-     * Method to retrieve the tourguideapp word for this Site pair.
-     */
-    public String getMiWokTranslation() {
-        return mMiWokTranslation;
+    public String getSiteDescription() {
+        return mSiteDescription;
     }
 
     public int getImageResourceId(){
         return mImageResourceId;
+    }
+
+    public int getLocationId(){
+        return mLocationId;
     }
 
     /**
@@ -51,9 +49,5 @@ public class Site {
      */
     public boolean hasImage(){
         return mImageResourceId != NO_IMAGE_PROVIDED;
-    }
-
-    public int getAudioResourceId(){
-        return mAudioResourceId;
     }
 }
