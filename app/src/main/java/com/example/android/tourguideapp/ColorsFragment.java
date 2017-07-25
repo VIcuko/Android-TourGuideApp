@@ -65,18 +65,18 @@ public class ColorsFragment extends Fragment {
 
         mAudioManager = (AudioManager) getActivity().getSystemService(Context.AUDIO_SERVICE);
 
-        final ArrayList<Word> words = new ArrayList<Word>();
+        final ArrayList<Site> sites = new ArrayList<Site>();
 
-        words.add(new Word("red", "weṭeṭṭi", R.drawable.color_red, R.raw.color_red));
-        words.add(new Word("green", "chokokki", R.drawable.color_green, R.raw.color_green));
-        words.add(new Word("brown", "ṭakaakki", R.drawable.color_brown, R.raw.color_brown));
-        words.add(new Word("gray", "ṭopoppi", R.drawable.color_gray, R.raw.color_gray));
-        words.add(new Word("black", "kululli", R.drawable.color_black, R.raw.color_black));
-        words.add(new Word("white", "kelelli", R.drawable.color_white, R.raw.color_white));
-        words.add(new Word("dusty yellow", "ṭopiisә", R.drawable.color_dusty_yellow, R.raw.color_dusty_yellow));
-        words.add(new Word("mustard yellow", "chiwiiṭә", R.drawable.color_mustard_yellow, R.raw.color_mustard_yellow));
+        sites.add(new Site("red", "weṭeṭṭi", R.drawable.color_red, R.raw.color_red));
+        sites.add(new Site("green", "chokokki", R.drawable.color_green, R.raw.color_green));
+        sites.add(new Site("brown", "ṭakaakki", R.drawable.color_brown, R.raw.color_brown));
+        sites.add(new Site("gray", "ṭopoppi", R.drawable.color_gray, R.raw.color_gray));
+        sites.add(new Site("black", "kululli", R.drawable.color_black, R.raw.color_black));
+        sites.add(new Site("white", "kelelli", R.drawable.color_white, R.raw.color_white));
+        sites.add(new Site("dusty yellow", "ṭopiisә", R.drawable.color_dusty_yellow, R.raw.color_dusty_yellow));
+        sites.add(new Site("mustard yellow", "chiwiiṭә", R.drawable.color_mustard_yellow, R.raw.color_mustard_yellow));
 
-        WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_colors);
+        WordAdapter adapter = new WordAdapter(getActivity(), sites, R.color.category_colors);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
@@ -92,7 +92,7 @@ public class ColorsFragment extends Fragment {
                         AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
 
                 if (result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
-                    mMediaPlayer = MediaPlayer.create(getActivity(), words.get(position).getAudioResourceId());
+                    mMediaPlayer = MediaPlayer.create(getActivity(), sites.get(position).getAudioResourceId());
                     mMediaPlayer.start();
                     mMediaPlayer.setOnCompletionListener(mCompletionListener);
                 }

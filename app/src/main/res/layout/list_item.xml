@@ -4,7 +4,7 @@
     android:id="@+id/list"
     android:layout_width="match_parent"
     android:layout_height="@dimen/list_item_height"
-    android:background="@color/category_colors"
+    android:background="@color/category_monuments"
     android:orientation="horizontal">
 
     <ImageView

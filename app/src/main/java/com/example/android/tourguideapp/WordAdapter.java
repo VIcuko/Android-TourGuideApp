@@ -18,12 +18,12 @@ import java.util.ArrayList;
  * Created by Vicuko on 17/7/17.
  */
 
-public class WordAdapter extends ArrayAdapter<Word> {
+public class WordAdapter extends ArrayAdapter<Site> {
 
     private int mColorResourceId;
 
-    public WordAdapter(Activity context, ArrayList<Word> words, int colorResourceId) {
-        super(context, 0, words);
+    public WordAdapter(Activity context, ArrayList<Site> sites, int colorResourceId) {
+        super(context, 0, sites);
         mColorResourceId = colorResourceId;
     }
 
@@ -36,27 +36,27 @@ public class WordAdapter extends ArrayAdapter<Word> {
                     R.layout.list_item, parent, false);
         }
 
-        // Get the {@link Word} object located at this position in the list
-        Word word = getItem(position);
+        // Get the {@link Site} object located at this position in the list
+        Site site = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID miwok_text
         TextView miWokText = (TextView) listItemView.findViewById(R.id.miwok_text);
 
-        // Get the word from the current Word object and set it on the TextView
-        miWokText.setText(word.getMiWokTranslation());
+        // Get the site from the current Site object and set it on the TextView
+        miWokText.setText(site.getMiWokTranslation());
 
         // Find the TextView in the list_item.xml layout with the ID default_text
         TextView defaultText = (TextView) listItemView.findViewById(R.id.default_text);
 
-        // Get the word from the current Word object and set it on the TextView
-        defaultText.setText(word.getDefautltTranslation());
+        // Get the site from the current Site object and set it on the TextView
+        defaultText.setText(site.getDefautltTranslation());
 
         // Find the ImageView in the list_item.xml layout with the ID image
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
 
-        if (word.hasImage()){
-            // Get the image from the current Word object and set it on the ImageView
-            imageView.setImageResource(word.getImageResourceId());
+        if (site.hasImage()){
+            // Get the image from the current Site object and set it on the ImageView
+            imageView.setImageResource(site.getImageResourceId());
 
             // Set the ImageView visibility to visible
             imageView.setVisibility(View.VISIBLE);
