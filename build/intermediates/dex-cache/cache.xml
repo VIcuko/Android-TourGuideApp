@@ -30,6 +30,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/TourGuideApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/TourGuideApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_83609aaffa9e82b9ccb78d05d170db95fc88f45b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/iTurbo/.android/build-cache/902ef915f8dc0c94cb7db01b9409d94d6d1021e7/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -63,6 +72,15 @@
         revision="25.0.0"
         sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
         <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/MiwokApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3c1269c4c1db22375a670d36d9b022e8791b707e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/TourGuideApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4f623c9338123323576273385a46d5fa4a19b17">
+        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/TourGuideApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eed07c593752dfa11b5e014bc2e3ef645a22ed4b/classes.dex" />
     </item>
     <item
         is-multidex="true"
