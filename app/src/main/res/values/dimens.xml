@@ -20,7 +20,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="map_link_margin">8dp</dimen>
 
-    <dimen name="place_name">24sp</dimen>
+    <dimen name="place_name">20sp</dimen>
     <dimen name="default_text">18sp</dimen>
     <dimen name="description_content">16sp</dimen>
     <dimen name="description_max_height">120dp</dimen>
