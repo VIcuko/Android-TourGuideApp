@@ -44,8 +44,8 @@ public class Site {
         return mImageResourceId;
     }
 
-    public String getLocation(){
-        return mLocationId;
+    public Uri getLocation(){
+        return mLocation;
     }
 
     /**
