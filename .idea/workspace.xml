@@ -10,7 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87237be6-42bb-47ba-b60f-91429fd14d29" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/Site.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/Site.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/EventsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/EventsFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/MonumentsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/MonumentsFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/NightlifeFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/NightlifeFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/RestaurantsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/RestaurantsFragment.java" />
     </list>
     <ignored path="TourGuideApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +48,8 @@
       <file leaf-file-name="MonumentsFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/MonumentsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="285">
+              <caret line="37" column="124" selection-start-line="28" selection-start-column="8" selection-end-line="37" selection-end-column="124" />
               <folding />
             </state>
           </provider>
@@ -55,9 +58,19 @@
       <file leaf-file-name="NightlifeFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/NightlifeFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="39" column="94" selection-start-line="39" selection-start-column="94" selection-end-line="39" selection-end-column="94" />
-              <folding />
+            <state relative-caret-position="234">
+              <caret line="37" column="124" selection-start-line="37" selection-start-column="124" selection-end-line="37" selection-end-column="124" />
+              <folding>
+                <element signature="e#969#988#0" expanded="true" />
+                <element signature="e#1078#1097#0" expanded="true" />
+                <element signature="e#1190#1209#0" expanded="true" />
+                <element signature="e#1302#1321#0" expanded="true" />
+                <element signature="e#1415#1434#0" expanded="true" />
+                <element signature="e#1531#1550#0" expanded="true" />
+                <element signature="e#1646#1665#0" expanded="true" />
+                <element signature="e#1751#1770#0" expanded="true" />
+                <element signature="e#1875#1895#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,38 +88,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Site.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/Site.java">
+      <file leaf-file-name="RestaurantsFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/RestaurantsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="219">
+              <caret line="39" column="124" selection-start-line="39" selection-start-column="124" selection-end-line="39" selection-end-column="124" />
               <folding>
-                <element signature="e#1252#1253#0" expanded="true" />
-                <element signature="e#1286#1287#0" expanded="true" />
-                <element signature="e#1500#1501#0" expanded="true" />
-                <element signature="e#1529#1530#0" expanded="true" />
+                <element signature="e#975#994#0" expanded="true" />
+                <element signature="e#1084#1103#0" expanded="true" />
+                <element signature="e#1196#1215#0" expanded="true" />
+                <element signature="e#1308#1327#0" expanded="true" />
+                <element signature="e#1421#1440#0" expanded="true" />
+                <element signature="e#1537#1556#0" expanded="true" />
+                <element signature="e#1652#1671#0" expanded="true" />
+                <element signature="e#1757#1776#0" expanded="true" />
+                <element signature="e#1881#1901#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RestaurantsFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/RestaurantsFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="41" column="96" selection-start-line="41" selection-start-column="96" selection-end-line="41" selection-end-column="96" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventsFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EventsFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/EventsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="40" column="91" selection-start-line="40" selection-start-column="91" selection-end-line="40" selection-end-column="91" />
+            <state relative-caret-position="243">
+              <caret line="38" column="124" selection-start-line="38" selection-start-column="124" selection-end-line="38" selection-end-column="124" />
               <folding>
-                <element signature="e#1286#1305#0" expanded="true" />
+                <element signature="e#964#983#0" expanded="true" />
+                <element signature="e#1073#1092#0" expanded="true" />
+                <element signature="e#1185#1204#0" expanded="true" />
+                <element signature="e#1297#1316#0" expanded="true" />
+                <element signature="e#1410#1429#0" expanded="true" />
+                <element signature="e#1526#1545#0" expanded="true" />
+                <element signature="e#1641#1660#0" expanded="true" />
+                <element signature="e#1746#1765#0" expanded="true" />
+                <element signature="e#1870#1890#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1880,16 +1896,16 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/MonumentsFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/SiteAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/ColorsFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/CategoryAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/RestaurantsFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/EventsFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/NightlifeFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/Site.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/MonumentsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/NightlifeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/RestaurantsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/EventsFragment.java" />
       </list>
     </option>
   </component>
@@ -2394,7 +2410,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#969#988#0" expanded="true" />
+            <element signature="e#1078#1097#0" expanded="true" />
+            <element signature="e#1190#1209#0" expanded="true" />
+            <element signature="e#1302#1321#0" expanded="true" />
+            <element signature="e#1415#1434#0" expanded="true" />
+            <element signature="e#1531#1550#0" expanded="true" />
+            <element signature="e#1646#1665#0" expanded="true" />
+            <element signature="e#1751#1770#0" expanded="true" />
+            <element signature="e#1875#1895#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2429,7 +2455,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding />
+          <folding>
+            <element signature="e#969#988#0" expanded="true" />
+            <element signature="e#1078#1097#0" expanded="true" />
+            <element signature="e#1190#1209#0" expanded="true" />
+            <element signature="e#1302#1321#0" expanded="true" />
+            <element signature="e#1415#1434#0" expanded="true" />
+            <element signature="e#1531#1550#0" expanded="true" />
+            <element signature="e#1646#1665#0" expanded="true" />
+            <element signature="e#1751#1770#0" expanded="true" />
+            <element signature="e#1875#1895#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2576,37 +2612,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/MonumentsFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/Site.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/RestaurantsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="41" column="96" selection-start-line="41" selection-start-column="96" selection-end-line="41" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/EventsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="40" column="91" selection-start-line="40" selection-start-column="91" selection-end-line="40" selection-end-column="91" />
+        <state relative-caret-position="735">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
           <folding>
-            <element signature="e#1286#1305#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/NightlifeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="39" column="94" selection-start-line="39" selection-start-column="94" selection-end-line="39" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2621,15 +2636,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/Site.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/MonumentsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        <state relative-caret-position="285">
+          <caret line="37" column="124" selection-start-line="28" selection-start-column="8" selection-end-line="37" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/NightlifeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="37" column="124" selection-start-line="37" selection-start-column="124" selection-end-line="37" selection-end-column="124" />
           <folding>
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1286#1287#0" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#969#988#0" expanded="true" />
+            <element signature="e#1078#1097#0" expanded="true" />
+            <element signature="e#1190#1209#0" expanded="true" />
+            <element signature="e#1302#1321#0" expanded="true" />
+            <element signature="e#1415#1434#0" expanded="true" />
+            <element signature="e#1531#1550#0" expanded="true" />
+            <element signature="e#1646#1665#0" expanded="true" />
+            <element signature="e#1751#1770#0" expanded="true" />
+            <element signature="e#1875#1895#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/RestaurantsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="39" column="124" selection-start-line="39" selection-start-column="124" selection-end-line="39" selection-end-column="124" />
+          <folding>
+            <element signature="e#975#994#0" expanded="true" />
+            <element signature="e#1084#1103#0" expanded="true" />
+            <element signature="e#1196#1215#0" expanded="true" />
+            <element signature="e#1308#1327#0" expanded="true" />
+            <element signature="e#1421#1440#0" expanded="true" />
+            <element signature="e#1537#1556#0" expanded="true" />
+            <element signature="e#1652#1671#0" expanded="true" />
+            <element signature="e#1757#1776#0" expanded="true" />
+            <element signature="e#1881#1901#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/tourguideapp/EventsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="38" column="124" selection-start-line="38" selection-start-column="124" selection-end-line="38" selection-end-column="124" />
+          <folding>
+            <element signature="e#964#983#0" expanded="true" />
+            <element signature="e#1073#1092#0" expanded="true" />
+            <element signature="e#1185#1204#0" expanded="true" />
+            <element signature="e#1297#1316#0" expanded="true" />
+            <element signature="e#1410#1429#0" expanded="true" />
+            <element signature="e#1526#1545#0" expanded="true" />
+            <element signature="e#1641#1660#0" expanded="true" />
+            <element signature="e#1746#1765#0" expanded="true" />
+            <element signature="e#1870#1890#0" expanded="true" />
           </folding>
         </state>
       </provider>
