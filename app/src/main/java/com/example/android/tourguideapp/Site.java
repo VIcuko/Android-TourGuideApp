@@ -1,7 +1,5 @@
 package com.example.android.tourguideapp;
 
-import android.net.Uri;
-
 /**
  * {@link Site} represents a vocabulary word that the user wants to learn.
  * It contains the Miwok word and its corresponding default translation.
@@ -14,21 +12,21 @@ public class Site {
     private String mSiteDescription;
     private int mImageResourceId = NO_IMAGE_PROVIDED;
     private static final int NO_IMAGE_PROVIDED = -1;
-    private Uri mLocation;
+    private int mLocationId;
     private int mPrice;
 
-    public Site(String siteName, String siteDescription, String location, int price) {
+    public Site(String siteName, String siteDescription, int locationId, int price) {
         mSiteName = siteName;
         mSiteDescription = siteDescription;
-        mLocation = Uri.parse(location);
+        mLocationId = locationId;
         mPrice = price;
     }
 
-    public Site(String siteName, String siteDescription, int imageResourceId, String location, int price) {
+    public Site(String siteName, String siteDescription, int imageResourceId, int locationId, int price) {
         mSiteName = siteName;
         mSiteDescription = siteDescription;
         mImageResourceId = imageResourceId;
-        mLocation = Uri.parse(location);
+        mLocationId = locationId;
         mPrice = price;
     }
 
@@ -44,8 +42,8 @@ public class Site {
         return mImageResourceId;
     }
 
-    public Uri getLocation(){
-        return mLocation;
+    public int getLocationId(){
+        return mLocationId;
     }
 
     /**

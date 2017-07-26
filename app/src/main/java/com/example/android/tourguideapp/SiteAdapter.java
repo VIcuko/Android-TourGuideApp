@@ -6,7 +6,6 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
-import android.support.v4.content.res.ResourcesCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -68,11 +67,11 @@ public class SiteAdapter extends ArrayAdapter<Site> {
             price.setText("Free");
         }
         else {
-            price.setText(site.getPrice() + "€");
+            price.setText(site.getPrice() + " €");
         }
 
         ImageView location = (ImageView) listItemView.findViewById(R.id.location);
-        final Uri siteLocation = site.getLocation();
+        final Uri siteLocation = Uri.parse(getContext().getResources().getString(site.getLocationId()));
         location.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
