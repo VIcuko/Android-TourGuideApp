@@ -51,4 +51,16 @@
     <string name="event_bicycle_tour">geo:40.4381311,-3.8196208</string>
     <string name="event_arab_baths">geo:40.4421396,-3.7168329</string>
     <string name="event_guided_wine_tour">geo:40.4656937,-3.6911858</string>
+
+    <string name="nightlife_bar_cock">geo:40.4198851,-3.7010307</string>
+    <string name="nightlife_el_diego">geo:40.4200181,-3.7014637</string>
+    <string name="nightlife_soho">geo:40.4547931,-3.720648</string>
+    <string name="nightlife_dry_martini_bar">geo:40.4264105,-3.6915403</string>
+    <string name="nightlife_museo_chicote">geo:40.4196933,-3.7010913</string>
+    <string name="nightlife_josealfredo_bar">geo:40.4216001,-3.7080497</string>
+    <string name="nightlife_cafe_central">geo:40.4142068,-3.7040284</string>
+    <string name="nightlife_buho_real">geo:40.424536,-3.6988594</string>
+    <string name="nightlife_moby_dick">geo:40.4545107,-3.6940855</string>
+    <string name="nightlife_el_juglar">geo:40.4096989,-3.7022861</string>
+
 </resources>
