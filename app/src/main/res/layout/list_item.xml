@@ -61,7 +61,7 @@
             android:textColor="@android:color/white"
             android:textSize="@dimen/default_text"
             android:textStyle="bold"
-            tools:text="Price:" />
+            android:text="Price:" />
 
         <TextView
             android:id="@+id/price"
