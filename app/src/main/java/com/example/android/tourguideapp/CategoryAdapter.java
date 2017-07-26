@@ -10,7 +10,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    private String tabTitles[] = new String[] { "Monuments", "Restaurants", "Events", "Nightlife" };
+    private String tabTitles[] = new String[]{"Monuments", "Restaurants", "Events", "Nightlife"};
 
     public CategoryAdapter(FragmentManager fm) {
         super(fm);

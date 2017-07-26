@@ -48,12 +48,10 @@ public class SiteAdapter extends ArrayAdapter<Site> {
 
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
 
-        if (site.hasImage()){
+        if (site.hasImage()) {
             imageView.setImageResource(site.getImageResourceId());
             imageView.setVisibility(View.VISIBLE);
-        }
-
-        else {
+        } else {
             imageView.setVisibility(View.GONE);
         }
 
@@ -63,10 +61,9 @@ public class SiteAdapter extends ArrayAdapter<Site> {
 
         TextView price = (TextView) listItemView.findViewById(R.id.price);
 
-        if (site.getPrice() == 0){
+        if (site.getPrice() == 0) {
             price.setText("Free");
-        }
-        else {
+        } else {
             price.setText(site.getPrice() + " €");
         }
 

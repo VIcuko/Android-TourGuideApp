@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2016 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,7 +17,6 @@
     <color name="primary_dark_color">#2F1D1A</color>
 
     <color name="tan_background">#FFF7DA</color>
-
 
     <color name="category_monuments">#2196F3</color>
     <color name="category_restaurants">#8BC34A</color>

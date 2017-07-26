@@ -38,23 +38,24 @@ public class Site {
         return mSiteDescription;
     }
 
-    public int getImageResourceId(){
+    public int getImageResourceId() {
         return mImageResourceId;
     }
 
-    public int getLocationId(){
+    public int getLocationId() {
         return mLocationId;
     }
 
     /**
      * Returns whether or not there is an image for this word.
+     *
      * @return
      */
-    public boolean hasImage(){
+    public boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 
-    public int getPrice(){
+    public int getPrice() {
         return mPrice;
     }
 }
