@@ -3,33 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/MiwokApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="43cbe207395cbc7baedac298389306c53f9d9bf3">
-        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/MiwokApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c262b3f7a347509daeb66da1f3cba0e4c30b252f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iTurbo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/MiwokApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_69b27f30cefd98f743e248a64f5d2cdcae34307f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/MiwokApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/MiwokApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0c82d42b4a5b0748dd9ef4fc7b6505fa40bf1efd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/TourGuideApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -39,75 +12,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iTurbo/.android/build-cache/902ef915f8dc0c94cb7db01b9409d94d6d1021e7/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/MiwokApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f23832e45dd18b3c88b9100d325115715b6f22d8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iTurbo/.android/build-cache/eefdcbbbc9f407f56eb27e2cbbf7f8be79e8573c/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
-        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/MiwokApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2b9c182bf29ba2933c96e3630e202e840ae1d896/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iTurbo/.android/build-cache/9e3fbb51defd519f1e97b18680177aee155e9804/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/MiwokApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3d233943abd8a7b92a9dca5de3edfe68ef6d38c6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iTurbo/.android/build-cache/19a389ad61ad780c55a3442fd94fbf9c7a9af8bd/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
-        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/MiwokApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3c1269c4c1db22375a670d36d9b022e8791b707e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/TourGuideApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="a4f623c9338123323576273385a46d5fa4a19b17">
+        sha1="7999599c0b593967d77896165a397e2ab5a20369">
         <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/TourGuideApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eed07c593752dfa11b5e014bc2e3ef645a22ed4b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iTurbo/.android/build-cache/a7b180a322b8ec940220a4d413150c5ba5b93f74/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="debf30ce0a7560396b6235edef77e447006454c2">
-        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/MiwokApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ea52f4d52bc4eef48e9d3cb2fd055c770732bfb6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iTurbo/.android/build-cache/78c093fc5b1af0558af23ef5e5b40e7c4b409b87/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
-        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/MiwokApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ca42cbdae5b857eb00f1aae7812e0f40376f5ce1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iTurbo/.android/build-cache/9e3fbb51defd519f1e97b18680177aee155e9804/output/jars/libs/internal_impl-23.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="/Users/iTurbo/Google Drive/3. Developer/11. Udacity/0. Android/MiwokApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_beecffd0dc7ca84ab46cf27437d29464d634dc81/classes.dex" />
     </item>
 
 </items>
