@@ -39,7 +39,7 @@ public class RestaurantsFragment extends Fragment {
         sites.add(new Site("Gran Vía", "wo’e", R.drawable.ic_place_white_24dp, R.string.monument_9));
         sites.add(new Site("Basílica de la Almudena", "na’aacha", R.drawable.ic_place_white_24dp, R.string.monument_10));
 
-        SiteAdapter adapter = new SiteAdapter(getActivity(), sites, R.color.category_monuments);
+        SiteAdapter adapter = new SiteAdapter(getActivity(), sites, R.color.category_restaurants);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
