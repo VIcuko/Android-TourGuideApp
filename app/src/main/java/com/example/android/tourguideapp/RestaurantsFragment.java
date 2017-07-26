@@ -28,16 +28,16 @@ public class RestaurantsFragment extends Fragment {
 
         //Create an ArrayList of sites
         final ArrayList<Site> sites = new ArrayList<Site>();
-        sites.add(new Site("Puerta de Alcalá", "lutti", R.drawable.ic_place_white_24dp, R.string.monument_1,10));
-        sites.add(new Site("Cibele", "otiiko", R.drawable.ic_place_white_24dp, R.string.monument_2,0));
-        sites.add(new Site("Bernabéu", "tolookosu", R.drawable.ic_place_white_24dp, R.string.monument_3,45));
-        sites.add(new Site("Puerta de Sol", "oyyisa", R.drawable.ic_place_white_24dp, R.string.monument_4,56));
-        sites.add(new Site("Plaza Mayor", "massokka", R.drawable.ic_place_white_24dp, R.string.monument_5,89));
-        sites.add(new Site("Palacio Real", "temmokka", R.drawable.ic_place_white_24dp, R.string.monument_6,0));
-        sites.add(new Site("Parque el retiro", "kenekaku", R.drawable.ic_place_white_24dp, R.string.monument_7,15));
-        sites.add(new Site("Museo del Prado", "kawinta", R.drawable.ic_place_white_24dp, R.string.monument_8,12));
-        sites.add(new Site("Gran Vía", "wo’e", R.drawable.ic_place_white_24dp, R.string.monument_9,45));
-        sites.add(new Site("Basílica de la Almudena", "na’aacha", R.drawable.ic_place_white_24dp, R.string.monument_10,32));
+        sites.add(new Site("Toga", "Mediterranean", R.drawable.ic_place_white_24dp, R.string.monument_1, 30));
+        sites.add(new Site("Cacao Restobar", "Latin", R.drawable.ic_place_white_24dp, R.string.monument_2, 30));
+        sites.add(new Site("Mu! El Placer De La Carne", "Grill, BBQ", R.drawable.ic_place_white_24dp, R.string.monument_3, 30));
+        sites.add(new Site("Algarabía", "Mediterranean", R.drawable.ic_place_white_24dp, R.string.monument_4,25));
+        sites.add(new Site("La Candela Restò", "Spanish", R.drawable.ic_place_white_24dp, R.string.monument_5,40));
+        sites.add(new Site("Nuevo Horno de Santa Teresa", "Mediterranean", R.drawable.ic_place_white_24dp, R.string.monument_7,25));
+        sites.add(new Site("Vinoteca Moratín", "Mediterranean", R.drawable.ic_place_white_24dp, R.string.monument_8,30));
+        sites.add(new Site("Kabuki Wellington", "Japanese", R.drawable.ic_place_white_24dp, R.string.monument_9,45));
+        sites.add(new Site("Cervecería La Mayor", "European", R.drawable.ic_place_white_24dp, R.string.monument_10,20));
+        sites.add(new Site("La Mi Venta", "Mediterranean", R.drawable.ic_place_white_24dp, R.string.monument_6,20));
 
         SiteAdapter adapter = new SiteAdapter(getActivity(), sites, R.color.category_restaurants);
 

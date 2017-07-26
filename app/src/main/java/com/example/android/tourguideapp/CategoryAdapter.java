@@ -21,9 +21,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         if (position == 0) {
             return new MonumentsFragment();
         } else if (position == 1) {
-            return new EventsFragment();
-        } else if (position == 2) {
             return new RestaurantsFragment();
+        } else if (position == 2) {
+            return new EventsFragment();
         } else {
             return new NightlifeFragment();
         }

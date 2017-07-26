@@ -29,4 +29,15 @@
     <string name="monument_8">geo:40.4199961,-3.6909257</string>
     <string name="monument_9">geo:40.4199961,-3.6909257</string>
     <string name="monument_10">geo:40.4199961,-3.6909257</string>
+
+    <string name="restaurant_1">geo:40.4199961,-3.6909257</string>
+    <string name="restaurant_2">geo:40.4199961,-3.6909257</string>
+    <string name="restaurant_3">geo:40.4199961,-3.6909257</string>
+    <string name="restaurant_4">geo:40.4199961,-3.6909257</string>
+    <string name="restaurant_5">geo:40.4199961,-3.6909257</string>
+    <string name="restaurant_6">geo:40.4199961,-3.6909257</string>
+    <string name="restaurant_7">geo:40.4199961,-3.6909257</string>
+    <string name="restaurant_8">geo:40.4199961,-3.6909257</string>
+    <string name="restaurant_9">geo:40.4199961,-3.6909257</string>
+    <string name="restaurant_10">geo:40.4199961,-3.6909257</string>
 </resources>
