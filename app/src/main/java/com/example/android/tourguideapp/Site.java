@@ -13,18 +13,21 @@ public class Site {
     private int mImageResourceId = NO_IMAGE_PROVIDED;
     private static final int NO_IMAGE_PROVIDED = -1;
     private int mLocationId;
+    private int mPrice;
 
-    public Site(String siteName, String siteDescription, int locationId) {
+    public Site(String siteName, String siteDescription, int locationId, int price) {
         mSiteName = siteName;
         mSiteDescription = siteDescription;
         mLocationId = locationId;
+        mPrice = price;
     }
 
-    public Site(String siteName, String siteDescription, int imageResourceId, int locationId) {
+    public Site(String siteName, String siteDescription, int imageResourceId, int locationId, int price) {
         mSiteName = siteName;
         mSiteDescription = siteDescription;
         mImageResourceId = imageResourceId;
         mLocationId = locationId;
+        mPrice = price;
     }
 
     public String getSiteName() {
@@ -49,5 +52,9 @@ public class Site {
      */
     public boolean hasImage(){
         return mImageResourceId != NO_IMAGE_PROVIDED;
+    }
+
+    public int getPrice(){
+        return mPrice;
     }
 }
