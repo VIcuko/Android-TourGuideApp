@@ -40,4 +40,15 @@
     <string name="restaurant_8">geo:40.4199961,-3.6909257</string>
     <string name="restaurant_9">geo:40.4199961,-3.6909257</string>
     <string name="restaurant_10">geo:40.4199961,-3.6909257</string>
+
+    <string name="event_flamenco_show">geo:40.412754, -3.714235</string>
+    <string name="event_madrid_walking_tour">geo:40.4381311,-3.8196208</string>
+    <string name="event_real_madrid_match">geo:40.4530582,-3.6905332</string>
+    <string name="event_excursion_to_toledo">geo:39.86232,-4.0694701</string>
+    <string name="event_tour_el_escorial">geo:40.5890449,-4.1499155</string>
+    <string name="event_free_stops_bus">geo:40.4381311,-3.8196208</string>
+    <string name="event_visit_the_prado">geo:40.4651979,-4.1124293</string>
+    <string name="event_bicycle_tour">geo:40.4381311,-3.8196208</string>
+    <string name="event_arab_baths">geo:40.4421396,-3.7168329</string>
+    <string name="event_guided_wine_tour">geo:40.4656937,-3.6911858</string>
 </resources>
