@@ -29,7 +29,7 @@
         app:tabSelectedTextColor="@color/selected_tab"
         app:tabTextColor="@color/not_selected_tab"
         android:background="@color/primary_color"
-        app:tabIndicatorColor="@color/selected_tab"/>
+        app:tabIndicatorColor="@color/selected_tab" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
