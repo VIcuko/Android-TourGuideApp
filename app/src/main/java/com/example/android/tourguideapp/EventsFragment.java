@@ -30,36 +30,36 @@ public class EventsFragment extends Fragment {
 
         sites.add(new Site("Flamenco show", "Feel the heat of the traditional dance of Spain with a flamenco show " +
                 "in one of the most prestigious \"tablaos\" (flamenco halls) in the country.",
-                R.drawable.ic_place_white_24dp, R.string.monument_1,49));
+                R.drawable.ic_place_white_24dp, R.string.event_flamenco_show,49));
 
         sites.add(new Site("Madrid walking tour", "Admire in centuries of Madrid's history during a guided tour on " +
-                "foot through the Spanish capital.", R.drawable.ic_place_white_24dp, R.string.monument_2,90));
+                "foot through the Spanish capital.", R.drawable.ic_place_white_24dp, R.string.event_madrid_walking_tour,90));
 
         sites.add(new Site("Real Madrid match", "Let yourself be carried away by football fever in a Real Madrid match " +
-                "at the Santiago Bernabéu stadium.", R.drawable.ic_place_white_24dp, R.string.monument_3,800));
+                "at the Santiago Bernabéu stadium.", R.drawable.ic_place_white_24dp, R.string.event_real_madrid_match,800));
 
         sites.add(new Site("Full day excursion to Toledo ", "Travel from Madrid to Toledo, a national monument of Spain's " +
                 "art and history, and discover the treasure of El Greco's works of art.", R.drawable.ic_place_white_24dp,
-                R.string.monument_4,57));
+                R.string.event_excursion_to_toledo,57));
 
         sites.add(new Site("One day tour at El Escorial", "Discover the magnificent monastery of El Escorial, the Valley of " +
                 "the Fallen and visit the \"Imperial City\" of Toledo on this day trip.", R.drawable.ic_place_white_24dp,
-                R.string.monument_5,97));
+                R.string.event_tour_el_escorial,97));
 
         sites.add(new Site("Free stops bus", "Discover the highlights of Madrid aboard a double decker bus with free stops.",
-                R.drawable.ic_place_white_24dp, R.string.monument_6,21));
+                R.drawable.ic_place_white_24dp, R.string.event_free_stops_bus,21));
 
         sites.add(new Site("Visit the Prado Museum", "Explore the Prado Museum in Madrid with an expert guide in art, avoiding " +
-                "long entry lines with your priority access ticket.", R.drawable.ic_place_white_24dp, R.string.monument_7,40));
+                "long entry lines with your priority access ticket.", R.drawable.ic_place_white_24dp, R.string.event_visit_the_prado,40));
 
         sites.add(new Site("3-hour bicycle tour", "Enjoy this 3-hour bike tour that will give you the opportunity to see the best " +
-                "places of interest in Madrid in a fun way.", R.drawable.ic_place_white_24dp, R.string.monument_8,22));
+                "places of interest in Madrid in a fun way.", R.drawable.ic_place_white_24dp, R.string.event_bicycle_tour,22));
 
         sites.add(new Site("Arab baths experience", "Look for serenity in the Arab baths of Madrid, Hamman Al Ándalus, and spend " +
-                "time relaxing your body, soul and mind.", R.drawable.ic_place_white_24dp, R.string.monument_9,63));
+                "time relaxing your body, soul and mind.", R.drawable.ic_place_white_24dp, R.string.event_arab_baths,63));
 
         sites.add(new Site("Guided wine tour", "Discover the prestigious wine region of the Ribera del Duero from Madrid.",
-                R.drawable.ic_place_white_24dp, R.string.monument_10,150));
+                R.drawable.ic_place_white_24dp, R.string.event_guided_wine_tour,150));
 
         SiteAdapter adapter = new SiteAdapter(getActivity(), sites, R.color.category_events);
 
@@ -69,5 +69,4 @@ public class EventsFragment extends Fragment {
 
         return rootView;
     }
-
 }
