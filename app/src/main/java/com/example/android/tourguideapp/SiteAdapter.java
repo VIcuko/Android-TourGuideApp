@@ -59,6 +59,15 @@ public class SiteAdapter extends ArrayAdapter<Site> {
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
         textContainer.setBackgroundColor(color);
 
+        TextView price = (TextView) listItemView.findViewById(R.id.price);
+
+        if (site.getPrice() == 0){
+            price.setText("Free");
+        }
+        else {
+            price.setText(site.getPrice() + "€");
+        }
+
         return listItemView;
     }
 }

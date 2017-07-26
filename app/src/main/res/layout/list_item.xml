@@ -72,7 +72,6 @@
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:textColor="@android:color/white"
             android:textSize="@dimen/default_text"
-            android:textStyle="bold"
             tools:text="9 €" />
 
         <ImageView
