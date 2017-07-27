@@ -33,8 +33,7 @@
     <string name="monument_el_capricho_location">geo:40.4566291,-3.5990688</string>
 
     <string name="monument_madrid_rio_name">Madrid Río</string>
-    <string name="monument_madrid_rio_description">Madrid Río is a huge enclave ludic and cultural as much for the historical monuments and facilities of leisure and culture that it houses, as for being a point of reference from which to be able to&nbsp;
-                contemplate and to contact with the monumental Madrid.</string>
+    <string name="monument_madrid_rio_description">Madrid Río is a huge enclave ludic and cultural as much for the historical monuments and facilities of leisure and culture that it houses, as for being a point of reference from which to be able to contemplate and to contact with the monumental Madrid.</string>
     <string name="monument_madrid_rio_location">geo:40.3980294,-3.7110238</string>
 
     <string name="monument_royal_palace_name">Royal Palace</string>
@@ -62,7 +61,7 @@
     <string name="monument_the_prado_location">geo:40.4137859,-3.6922639</string>
 
     <string name="monument_thyssen_name">Thyssen Museum</string>
-    <string name="monument_thyssen_description">The Thyssen-Bornemisza Museum, or simply the Thyssen, is an art museum in Madrid, Spain, located near the Prado Museum at one of city's main boulevards.</string>
+    <string name="monument_thyssen_description">The Thyssen-Bornemisza Museum, or simply the Thyssen, is an art museum in Madrid, Spain, located near the Prado Museum at one of city\'s main boulevards.</string>
     <string name="monument_thyssen_location">geo:40.4160447,-3.6950622</string>
 
     <string name="restaurant_toga_name">Toga</string>
@@ -118,7 +117,7 @@
     <string name="event_real_madrid_match_location">geo:40.4530582,-3.6884813</string>
 
     <string name="event_excursion_to_toledo_name">Full day excursion to Toledo</string>
-    <string name="event_excursion_to_toledo_description">Travel from Madrid to Toledo, a national monument of Spain\'s art and history, and discover the treasure of El Greco's works of art.</string>
+    <string name="event_excursion_to_toledo_description">Travel from Madrid to Toledo, a national monument of Spain\'s art and history, and discover the treasure of El Greco\'s works of art.</string>
     <string name="event_excursion_to_toledo_location">geo:39.86232,-4.0694701</string>
 
     <string name="event_tour_el_escorial_name">One day tour at El Escorial</string>
@@ -186,6 +185,6 @@
     <string name="nightlife_el_juglar_location">geo:40.4096989,-3.7022861</string>
 
     <string name="free_text">Free</string>
-    <string name="euro_sign">&nbsp;€</string>
+    <string name="euro_sign">\ €</string>
 
 </resources>
