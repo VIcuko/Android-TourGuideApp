@@ -41,10 +41,10 @@ public class SiteAdapter extends ArrayAdapter<Site> {
         Site site = getItem(position);
 
         TextView placeName = (TextView) listItemView.findViewById(R.id.place_name);
-        placeName.setText(site.getSiteName());
+        placeName.setText(getContext().getResources().getString(site.getSiteNameId()));
 
         TextView descriptionContent = (TextView) listItemView.findViewById(R.id.description_content);
-        descriptionContent.setText(site.getSiteDescription());
+        descriptionContent.setText(getContext().getResources().getString(site.getSiteDescriptionId()));
 
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
 
