@@ -64,7 +64,7 @@ public class SiteAdapter extends ArrayAdapter<Site> {
         if (site.getPrice() == 0) {
             price.setText(R.string.free_text);
         } else {
-            price.setText(site.getPrice() + R.string.euro_sign);
+            price.setText(site.getPrice() + getContext().getResources().getString(R.string.euro_sign));
         }
 
         ImageView location = (ImageView) listItemView.findViewById(R.id.location);
