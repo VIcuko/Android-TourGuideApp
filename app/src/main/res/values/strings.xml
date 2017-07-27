@@ -19,6 +19,11 @@
     <string name="category_events">Events</string>
     <string name="category_nightlife">Nightlife</string>
 
+    <string name="tab_option_1">Monuments</string>
+    <string name="tab_option_2">Restaurants</string>
+    <string name="tab_option_3">Events</string>
+    <string name="tab_option_4">Nightlife</string>
+
     <string name="monument_bernabeu">geo:40.4530582,-3.6884813</string>
     <string name="monument_el_capricho">geo:40.4566291,-3.5990688</string>
     <string name="monument_madrid_rio">geo:40.3980294,-3.7110238</string>
