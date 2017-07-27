@@ -68,4 +68,7 @@
     <string name="nightlife_moby_dick">geo:40.4545107,-3.6940855</string>
     <string name="nightlife_el_juglar">geo:40.4096989,-3.7022861</string>
 
+    <string name="free_text">Free</string>
+    <string name="euro_sign">&nbsp;€</string>
+
 </resources>
