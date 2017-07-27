@@ -8,34 +8,34 @@ package com.example.android.tourguideapp;
 
 public class Site {
 
-    private String mSiteName;
-    private String mSiteDescription;
+    private int mSiteNameId;
+    private int mSiteDescriptionId;
     private int mImageResourceId = NO_IMAGE_PROVIDED;
     private static final int NO_IMAGE_PROVIDED = -1;
     private int mLocationId;
     private int mPrice;
 
-    public Site(String siteName, String siteDescription, int locationId, int price) {
-        mSiteName = siteName;
-        mSiteDescription = siteDescription;
+    public Site(int siteNameId, int siteDescriptionId, int locationId, int price) {
+        mSiteNameId = siteNameId;
+        mSiteDescriptionId = siteDescriptionId;
         mLocationId = locationId;
         mPrice = price;
     }
 
-    public Site(String siteName, String siteDescription, int imageResourceId, int locationId, int price) {
-        mSiteName = siteName;
-        mSiteDescription = siteDescription;
+    public Site(int siteNameId, int siteDescriptionId, int imageResourceId, int locationId, int price) {
+        mSiteNameId = siteNameId;
+        mSiteDescriptionId = siteDescriptionId;
         mImageResourceId = imageResourceId;
         mLocationId = locationId;
         mPrice = price;
     }
 
-    public String getSiteName() {
-        return mSiteName;
+    public int getSiteNameId() {
+        return mSiteNameId;
     }
 
-    public String getSiteDescription() {
-        return mSiteDescription;
+    public int getSiteDescriptionId() {
+        return mSiteDescriptionId;
     }
 
     public int getImageResourceId() {

@@ -26,9 +26,8 @@ public class MonumentsFragment extends Fragment {
 
         //Create an ArrayList of sites
         final ArrayList<Site> sites = new ArrayList<Site>();
-        sites.add(new Site("Santiago Bernabéu Stadium", "The Santiago Bernabéu Stadium, is the home stadium of Real Madrid " +
-                "since its completion in 1947, with a current seating capacity of 81,044.", R.drawable.monument_bernabeu,
-                R.string.monument_bernabeu, 18));
+        sites.add(new Site(R.string.monument_bernabeu_name, R.string.monument_bernabeu_description, R.drawable.monument_bernabeu,
+                R.string.monument_bernabeu_location, 18));
 
         sites.add(new Site("El Capricho", "The Parque de El Capricho is a park in Madrid. The name means \"the folly\" in Spanish. " +
                 "It was created by María Josefa Pimentel, Duchess of Osuna on her estate at Alameda de Osuna",

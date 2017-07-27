@@ -24,7 +24,11 @@
     <string name="tab_option_3">Events</string>
     <string name="tab_option_4">Nightlife</string>
 
-    <string name="monument_bernabeu">geo:40.4530582,-3.6884813</string>
+    <string name="monument_bernabeu_name">Santiago Bernabéu Stadium</string>
+    <string name="monument_bernabeu_description">The Santiago Bernabéu Stadium, is the home stadium of Real Madrid
+                since its completion in 1947, with a current seating capacity of 81,044.</string>
+    <string name="monument_bernabeu_location">geo:40.4530582,-3.6884813</string>
+
     <string name="monument_el_capricho">geo:40.4566291,-3.5990688</string>
     <string name="monument_madrid_rio">geo:40.3980294,-3.7110238</string>
     <string name="monument_royal_palace">geo:40.4179591,-3.7144488</string>
