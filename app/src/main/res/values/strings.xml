@@ -25,52 +25,165 @@
     <string name="tab_option_4">Nightlife</string>
 
     <string name="monument_bernabeu_name">Santiago Bernabéu Stadium</string>
-    <string name="monument_bernabeu_description">The Santiago Bernabéu Stadium, is the home stadium of Real Madrid
-                since its completion in 1947, with a current seating capacity of 81,044.</string>
+    <string name="monument_bernabeu_description">The Santiago Bernabéu Stadium, is the home stadium of Real Madrid since its completion in 1947, with a current seating capacity of 81,044.</string>
     <string name="monument_bernabeu_location">geo:40.4530582,-3.6884813</string>
 
-    <string name="monument_el_capricho">geo:40.4566291,-3.5990688</string>
-    <string name="monument_madrid_rio">geo:40.3980294,-3.7110238</string>
-    <string name="monument_royal_palace">geo:40.4179591,-3.7144488</string>
-    <string name="monument_cibeles">geo:40.4193344,-3.6931872</string>
-    <string name="monument_puerta_alcala">geo:40.4199394,-3.688758</string>
-    <string name="monument_retiro">geo:40.4152647,-3.6846363</string>
-    <string name="monument_debod">geo:40.4240257,-3.7179063</string>
-    <string name="monument_the_prado">geo:40.4137859,-3.6922639</string>
-    <string name="monument_thyssen">geo:40.4160447,-3.6950622</string>
+    <string name="monument_el_capricho_name">El Capricho</string>
+    <string name="monument_el_capricho_description">The Parque de El Capricho is a park in Madrid. The name means \"the folly\" in Spanish. It was created by María Josefa Pimentel, Duchess of Osuna on her estate at Alameda de Osuna</string>
+    <string name="monument_el_capricho_location">geo:40.4566291,-3.5990688</string>
 
-    <string name="restaurant_toga">geo:40.4110887,-3.706733</string>
-    <string name="restaurant_cacao_restobar">geo:40.4124352,-3.6971684</string>
-    <string name="restaurant_mu">geo:40.419495,-3.7041713</string>
-    <string name="restaurant_algarabia">geo:40.4174381,-3.7105748</string>
-    <string name="restaurant_candela_resto">geo:40.4172517,-3.7111311</string>
-    <string name="restaurant_nuevo_horno">geo:40.4257236,-3.6959509</string>
-    <string name="restaurant_vinoteca_moratin">geo:40.4125479,-3.6955642</string>
-    <string name="restaurant_kabuki_wellington">geo:40.4218272,-3.6843264,</string>
-    <string name="restaurant_cerveceria_la_mayor">geo:40.4151375,-3.7122861</string>
-    <string name="restaurant_la_mi_venta">geo:40.4203532,-3.7126418</string>
+    <string name="monument_madrid_rio_name">Madrid Río</string>
+    <string name="monument_madrid_rio_description">Madrid Río is a huge enclave ludic and cultural as much for the historical monuments and facilities of leisure and culture that it houses, as for being a point of reference from which to be able to&nbsp;
+                contemplate and to contact with the monumental Madrid.</string>
+    <string name="monument_madrid_rio_location">geo:40.3980294,-3.7110238</string>
 
-    <string name="event_flamenco_show">geo:40.412754, -3.714235</string>
-    <string name="event_madrid_walking_tour">geo:40.4381311,-3.8196208</string>
-    <string name="event_real_madrid_match">geo:40.4530582,-3.6884813</string>
-    <string name="event_excursion_to_toledo">geo:39.86232,-4.0694701</string>
-    <string name="event_tour_el_escorial">geo:40.5890449,-4.1499155</string>
-    <string name="event_free_stops_bus">geo:40.4381311,-3.8196208</string>
-    <string name="event_visit_the_prado">geo:40.4651979,-4.1124293</string>
-    <string name="event_bicycle_tour">geo:40.4381311,-3.8196208</string>
-    <string name="event_arab_baths">geo:40.4421396,-3.7168329</string>
-    <string name="event_guided_wine_tour">geo:40.4656937,-3.6911858</string>
+    <string name="monument_royal_palace_name">Royal Palace</string>
+    <string name="monument_royal_palace_description">The Royal Palace of Madrid is the official residence of the Spanish Royal Family at the city of Madrid, but it is only used for state ceremonies.</string>
+    <string name="monument_royal_palace_location">geo:40.4179591,-3.7144488</string>
 
-    <string name="nightlife_bar_cock">geo:40.4198851,-3.7010307</string>
-    <string name="nightlife_del_diego">geo:40.4200181,-3.7014637</string>
-    <string name="nightlife_soho">geo:40.4547931,-3.720648</string>
-    <string name="nightlife_dry_martini_bar">geo:40.4264105,-3.6915403</string>
-    <string name="nightlife_museo_chicote">geo:40.4196933,-3.7010913</string>
-    <string name="nightlife_josealfredo_bar">geo:40.4216001,-3.7080497</string>
-    <string name="nightlife_cafe_central">geo:40.4142068,-3.7040284</string>
-    <string name="nightlife_buho_real">geo:40.424536,-3.6988594</string>
-    <string name="nightlife_moby_dick">geo:40.4545107,-3.6940855</string>
-    <string name="nightlife_el_juglar">geo:40.4096989,-3.7022861</string>
+    <string name="monument_cibeles_name">Plaza de Cibeles</string>
+    <string name="monument_cibeles_description">The Plaza de Cibeles is a square with a neo-classical complex of marble sculptures with fountains that has become an iconic symbol for the city of Madrid.</string>
+    <string name="monument_cibeles_location">geo:40.4193344,-3.6931872</string>
+
+    <string name="monument_puerta_alcala_name">Puerta de Alcalá</string>
+    <string name="monument_puerta_alcala_description">The Puerta de Alcalá is a Neo-classical monument in the Plaza de la Independencia in Madrid, Spain.</string>
+    <string name="monument_puerta_alcala_location">geo:40.4199394,-3.688758</string>
+
+    <string name="monument_retiro_name">El Retiro</string>
+    <string name="monument_retiro_description">El Retiro is one of the largest parks of the city of Madrid, Spain. The park belonged to the Spanish Monarchy until the late 19th century, when it became a public park.</string>
+    <string name="monument_retiro_location">geo:40.4152647,-3.6846363</string>
+
+    <string name="monument_debod_name">Debod Temple</string>
+    <string name="monument_debod_description">The Debod Temple is an ancient Egyptian temple that was dismantled and rebuilt in Madrid, Spain.</string>
+    <string name="monument_debod_location">geo:40.4240257,-3.7179063</string>
+
+    <string name="monument_the_prado_name">The Prado Museum</string>
+    <string name="monument_the_prado_description">The Prado Museum is the main Spanish national art museum, located in central Madrid.</string>
+    <string name="monument_the_prado_location">geo:40.4137859,-3.6922639</string>
+
+    <string name="monument_thyssen_name">Thyssen Museum</string>
+    <string name="monument_thyssen_description">The Thyssen-Bornemisza Museum, or simply the Thyssen, is an art museum in Madrid, Spain, located near the Prado Museum at one of city's main boulevards.</string>
+    <string name="monument_thyssen_location">geo:40.4160447,-3.6950622</string>
+
+    <string name="restaurant_toga_name">Toga</string>
+    <string name="restaurant_toga_description">Mediterranean</string>
+    <string name="restaurant_toga_location">geo:40.4110887,-3.706733</string>
+
+    <string name="restaurant_cacao_restobar_name">Cacao Restobar</string>
+    <string name="restaurant_cacao_restobar_description">Latin</string>
+    <string name="restaurant_cacao_restobar_location">geo:40.4124352,-3.6971684</string>
+
+    <string name="restaurant_mu_name">Mu! El Placer De La Carne</string>
+    <string name="restaurant_mu_description">Grill, BBQ</string>
+    <string name="restaurant_mu_location">geo:40.419495,-3.7041713</string>
+
+    <string name="restaurant_algarabia_name">Algarabía</string>
+    <string name="restaurant_algarabia_description">Mediterranean</string>
+    <string name="restaurant_algarabia_location">geo:40.4174381,-3.7105748</string>
+
+    <string name="restaurant_candela_resto_name">La Candela Restò</string>
+    <string name="restaurant_candela_resto_description">Spanish</string>
+    <string name="restaurant_candela_resto_location">geo:40.4172517,-3.7111311</string>
+
+    <string name="restaurant_nuevo_horno_name">Nuevo Horno de Santa Teresa</string>
+    <string name="restaurant_nuevo_horno_description">Mediterranean</string>
+    <string name="restaurant_nuevo_horno_location">geo:40.4257236,-3.6959509</string>
+
+    <string name="restaurant_vinoteca_moratin_name">Vinoteca Moratín</string>
+    <string name="restaurant_vinoteca_moratin_description">Mediterranean</string>
+    <string name="restaurant_vinoteca_moratin_location">geo:40.4125479,-3.6955642</string>
+
+    <string name="restaurant_kabuki_wellington_name">Kabuki Wellington</string>
+    <string name="restaurant_kabuki_wellington_description">Japanese</string>
+    <string name="restaurant_kabuki_wellington_location">geo:40.4218272,-3.6843264</string>
+
+    <string name="restaurant_cerveceria_la_mayor_name">Cervecería La Mayor</string>
+    <string name="restaurant_cerveceria_la_mayor_description">European</string>
+    <string name="restaurant_cerveceria_la_mayor_location">geo:40.4151375,-3.7122861</string>
+
+    <string name="restaurant_la_mi_venta_name">La Mi Venta</string>
+    <string name="restaurant_la_mi_venta_description">Mediterranean</string>
+    <string name="restaurant_la_mi_venta_location">geo:40.4203532,-3.7126418</string>
+
+    <string name="event_flamenco_show_name">Flamenco show</string>
+    <string name="event_flamenco_show_description">Feel the heat of the traditional dance of Spain with a flamenco show in one of the most prestigious \"tablaos\" (flamenco halls) in the country.</string>
+    <string name="event_flamenco_show_location">geo:40.412754, -3.714235</string>
+
+    <string name="event_madrid_walking_tour_name">Madrid walking tour</string>
+    <string name="event_madrid_walking_tour_description">Admire in centuries of Madrid\'s history during a guided tour on foot through the Spanish capital.</string>
+    <string name="event_madrid_walking_tour_location">geo:40.4381311,-3.8196208</string>
+
+    <string name="event_real_madrid_match_name">Real Madrid match</string>
+    <string name="event_real_madrid_match_description">Let yourself be carried away by football fever in a Real Madrid match at the Santiago Bernabéu stadium.</string>
+    <string name="event_real_madrid_match_location">geo:40.4530582,-3.6884813</string>
+
+    <string name="event_excursion_to_toledo_name">Full day excursion to Toledo</string>
+    <string name="event_excursion_to_toledo_description">Travel from Madrid to Toledo, a national monument of Spain\'s art and history, and discover the treasure of El Greco's works of art.</string>
+    <string name="event_excursion_to_toledo_location">geo:39.86232,-4.0694701</string>
+
+    <string name="event_tour_el_escorial_name">One day tour at El Escorial</string>
+    <string name="event_tour_el_escorial_description">Discover the magnificent monastery of El Escorial, the Valley of the Fallen and visit the \"Imperial City\" of Toledo on this day trip.</string>
+    <string name="event_tour_el_escorial_location">geo:40.5890449,-4.1499155</string>
+
+    <string name="event_free_stops_bus_name">Free stops bus</string>
+    <string name="event_free_stops_bus_description">Discover the highlights of Madrid aboard a double decker bus with free stops.</string>
+    <string name="event_free_stops_bus_location">geo:40.4381311,-3.8196208</string>
+
+    <string name="event_visit_the_prado_name">Visit the Prado Museum</string>
+    <string name="event_visit_the_prado_description">Explore the Prado Museum in Madrid with an expert guide in art, avoiding long entry lines with your priority access ticket.</string>
+    <string name="event_visit_the_prado_location">geo:40.4651979,-4.1124293</string>
+
+    <string name="event_bicycle_tour_name">3-hour bicycle tour</string>
+    <string name="event_bicycle_tour_description">Enjoy this 3-hour bike tour that will give you the opportunity to see the best places of interest in Madrid in a fun way.</string>
+    <string name="event_bicycle_tour_location">geo:40.4381311,-3.8196208</string>
+
+    <string name="event_arab_baths_name">Arab baths experience</string>
+    <string name="event_arab_baths_description">Look for serenity in the Arab baths of Madrid, Hamman Al Ándalus, and spend time relaxing your body, soul and mind.</string>
+    <string name="event_arab_baths_location">geo:40.4421396,-3.7168329</string>
+
+    <string name="event_guided_wine_tour_name">Guided wine tour</string>
+    <string name="event_guided_wine_tour_description">Discover the prestigious wine region of the Ribera del Duero from Madrid.</string>
+    <string name="event_guided_wine_tour_location">geo:40.4656937,-3.6911858</string>
+
+    <string name="nightlife_bar_cock_name">Bar Cock</string>
+    <string name="nightlife_bar_cock_description">Bar Cock is a renowned venue for cocktails, offering both old favourites and the latest creations</string>
+    <string name="nightlife_bar_cock_location">geo:40.4198851,-3.7010307</string>
+
+    <string name="nightlife_del_diego_name">Coctelería Del Diego</string>
+    <string name="nightlife_del_diego_description">Del Diego offers a vast selection of beverages, in fact, they have one of the longest cocktail menus in Madrid</string>
+    <string name="nightlife_del_diego_location">geo:40.4200181,-3.7014637</string>
+
+    <string name="nightlife_soho_name">Soho</string>
+    <string name="nightlife_soho_description">Some say this place makes the best cocktails in Madrid, but we mustn’t overlook the American and Tex-Mex food on offer here.</string>
+    <string name="nightlife_soho_location">geo:40.4547931,-3.720648</string>
+
+    <string name="nightlife_dry_martini_bar_name">DRY Martini Bar</string>
+    <string name="nightlife_dry_martini_bar_description">From inside this classic Madrid hotel, the Melia Fénix, barman Javier de las Muelas has his sights set on conquering the entire city</string>
+    <string name="nightlife_dry_martini_bar_location">geo:40.4264105,-3.6915403</string>
+
+    <string name="nightlife_museo_chicote_name">Museo Chicote</string>
+    <string name="nightlife_museo_chicote_description">This legendary cocktail bar on the Gran Vía has been around for years and has managed to preserve the best of its history.</string>
+    <string name="nightlife_museo_chicote_location">geo:40.4196933,-3.7010913</string>
+
+    <string name="nightlife_josealfredo_bar_name">Josealfredo Bar</string>
+    <string name="nightlife_josealfredo_bar_description">This American style cocktail bar is one of the most popular in Madrid. It offers leading brands of drinks, a wide range of cocktails and an extensive selection of  gin-tonics, the speciality of the house.</string>
+    <string name="nightlife_josealfredo_bar_location">geo:40.4216001,-3.7080497</string>
+
+    <string name="nightlife_cafe_central_name">Café Central</string>
+    <string name="nightlife_cafe_central_description">Since it opened its doors in 1982, this venue has been committed to a love of good jazz, with more than 8,000 live shows under its belt.</string>
+    <string name="nightlife_cafe_central_location">geo:40.4142068,-3.7040284</string>
+
+    <string name="nightlife_buho_real_name">El búho real</string>
+    <string name="nightlife_buho_real_description">This small club, located between Chueca and Alonso Martínez, promotes little known singer-songwriters and is a favourite with residents of Madrid who want to discover new musical talent.</string>
+    <string name="nightlife_buho_real_location">geo:40.424536,-3.6988594</string>
+
+    <string name="nightlife_moby_dick_name">Moby Dick</string>
+    <string name="nightlife_moby_dick_description">Inspired by the sea, the venue is packed with seafaring references: sail boats, sails wound around masts, gas lamps... and also electric guitars that hang on the ceiling and walls, because music is the star in this venue.</string>
+    <string name="nightlife_moby_dick_location">geo:40.4545107,-3.6940855</string>
+
+    <string name="nightlife_el_juglar_name">El Juglar</string>
+    <string name="nightlife_el_juglar_description">Equipped with an impressive stage and the latest technology in terms of sound, this venue offers the most varied music, the most heterogeneous bands and the best atmosphere in Lavapiés.</string>
+    <string name="nightlife_el_juglar_location">geo:40.4096989,-3.7022861</string>
 
     <string name="free_text">Free</string>
     <string name="euro_sign">&nbsp;€</string>
